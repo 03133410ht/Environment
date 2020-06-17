@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<classes>
+	<class port='8888'>
+		<classname>Server</classname>
+		<classpath>com.briup.environment.server.ServerImp</classpath>
+	</class>
+	<class s_ip='127.0.0.1' s_port='8888'>
+		<classname>Client</classname>
+		<classpath>com.briup.environment.client.ClientImp</classpath>
+	</class>
+	<class>
+		<classname>DBStore</classname>
+		<classpath>com.briup.environment.server.DBStoreImp</classpath>
+	</class>
+	<class>
+		<classname>Log</classname>
+		<classpath>com.briup.environment.util.LogImp</classpath>
+	</class>
+	<class path='src/file/radwtmp' backPath='src/file/back'>
+		<classname>Gather</classname>
+		<classpath>com.briup.environment.client.GatherImp</classpath>
+	</class>
+	<class>
+		<classname>BackUP</classname>
+		<classpath>com.briup.environment.util.BackUPImp</classpath>
+	</class>
+</classes>
